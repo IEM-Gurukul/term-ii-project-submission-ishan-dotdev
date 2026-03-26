@@ -1,43 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pG3gvzt-)
-# PCCCS495 – Term II Project
+# Bank Management System
 
-## Project Title
-
----
-
-## Problem Statement (max 150 words)
-
----
+## Problem Statement
+This project implements a simple bank management system that allows users to create accounts, deposit money, withdraw money, and check account details efficiently.
 
 ## Target User
-
----
+This system is designed for beginners and small-scale banking operations where basic account handling is required.
 
 ## Core Features
-
-- 
-- 
-- 
-
----
+- Create new account
+- Deposit money
+- Withdraw money
+- Display account details
 
 ## OOP Concepts Used
+- Encapsulation (private variables)
+- Classes and Objects
+- Abstraction (methods like deposit, withdraw)
 
-- Abstraction:
-- Inheritance:
-- Polymorphism:
-- Exception Handling:
-- Collections / Threads:
-
----
-
-## Proposed Architecture Description
-
----
+## Architecture Description
+The project consists of three main classes:
+- BankAccount: Stores account details and operations
+- BankManager: Manages multiple accounts
+- Main: User interface and program execution
 
 ## How to Run
-
----
-
-## Git Discipline Notes
-Minimum 10 meaningful commits required.
+1. Navigate to src folder
+2. Compile: javac Main.java
+3. Run: java Main
