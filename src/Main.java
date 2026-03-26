@@ -1,3 +1,4 @@
+// Updated version 1
 import java.util.Scanner;
 
 public class Main {
@@ -12,7 +13,7 @@ public class Main {
             System.out.println("4. Display");
             System.out.println("5. Exit");
 
-            int choice = sc.nextInt();
+            int choice = Integer.parseInt(sc.next());
 
             if (choice == 1) {
                 System.out.print("Enter Name: ");
